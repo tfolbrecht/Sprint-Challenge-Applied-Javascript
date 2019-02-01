@@ -22,7 +22,7 @@ class TabLink {
 
     // Add a click event that invokes this.selectTab
     this.tabElement.addEventListener('click', () => {
-      this.selectTab();      
+      this.selectTab();
     });
   }
 
@@ -53,6 +53,7 @@ class TabCard {
     // Assign this.cardElement to the cardElement DOM reference
     this.cardElement = cardElement;
   }
+  
   selectCard(){
     // Update the style of this.cardElement to display = "flex"
     this.cardElement.style.display = 'flex';
@@ -70,5 +71,4 @@ class TabCard {
 
 */
 let tabs = document.querySelectorAll(".tab");
-
 tabs.forEach( tab => new TabLink(tab));

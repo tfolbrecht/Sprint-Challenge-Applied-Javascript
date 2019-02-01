@@ -1,8 +1,28 @@
 class Carousel {
+/*
+// make [0] visible
+// on right-button click event, select next in series ot make visible
+// left-button, pervious in array
+
+
+
+// carouselimg[i] .style.display = "block";
+// left-button i-1 .style.display = "block";
+// right-button i+1 .style.display = "block";
+
+
+<div class="left-button">&lt;</div>
+
+<div class="right-button">&gt;</div>
+
+addEventListener('click', () => {
+      this.selectTab();
+
+*/
 
 }
 
-let carousel = document.querySelector();
+
 
 /* If You've gotten this far, you're on your own! Although we will give you some hints:
     1. You will need to grab a reference to the carousel, and in it grab the left and right buttons
