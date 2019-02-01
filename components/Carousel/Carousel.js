@@ -1,26 +1,9 @@
 class Carousel {
-/*
-// make [0] visible
-// on right-button click event, select next in series ot make visible
-// left-button, pervious in array
-
-
-
-// carouselimg[i] .style.display = "block";
-// left-button i-1 .style.display = "block";
-// right-button i+1 .style.display = "block";
-
-
-<div class="left-button">&lt;</div>
-
-<div class="right-button">&gt;</div>
-
-addEventListener('click', () => {
-      this.selectTab();
-
-*/
-
+    constructor(carouselElement) {
+    this.carouselElement = carouselElement;
 }
+}
+
 
 
 
@@ -31,4 +14,17 @@ addEventListener('click', () => {
     4. Those buttons are gonna need some click handlers.
     5. Think of how you would animate this component. Make the cards slide in and out, or fade. It's up to you!
     6. Have fun!
+
+    Set current image as [0] in img array .style.display = "block"
+    Define a function for left-button & right-button 
 */
+
+
+
+document.querySelector("img").style.display = "block";
+// ocument.querySelector("img").style.display = "none";
+
+// left = img[i].style.display = "none"; && img[i - 1].style.display = "block";
+// right = img[i].style.display = "none"; && img[i + 1].style.display = "block";
+
+let carousel = document.querySelectorAll(".carousel");
